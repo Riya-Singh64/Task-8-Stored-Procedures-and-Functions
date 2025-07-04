@@ -1,7 +1,5 @@
 # Task-8-Stored-Procedures-and-Functions
 
-# Task 8: Stored Procedures and Functions
-
 # Objective
 Learn to modularize and reuse SQL logic using stored procedures and functions in MySQL.
 
@@ -26,7 +24,7 @@ DELIMITER ;
 - To call the procedure
   CALL GetOrdersByCustomer(1);
 
-- create a function that returns the total amount a customer has spent.
+  # 2. create a function that returns the total amount a customer has spent.
 DELIMITER //
 CREATE FUNCTION TotalSpent(cust_id INT)
 RETURNS DECIMAL(10,2)
